@@ -82,7 +82,7 @@
     <!-- fin seccion navbar -->
 
     <!-- seccion carrusel -->
-    <div class="container">
+    <div class="container" id="inicio">
       <div class="row">
         <div id="carouselExample" class="carousel slide carousel-fade">
           <div class="carousel-inner">
@@ -127,8 +127,9 @@
     <!-- fin seccion carrusel -->
     <!-- seccion quienes somos -->
     <div class="container text-center mt-4" id="quienessomos">
-      <div class="row mb-4 row-cols-1 row-cols-md-4">
+      <div class="row mb-4">
         <h4 class="text-center">Quienes Somos</h4>
+        <hr />
       </div>
       <div class="row align-items-start row-cols-1 row-cols-md-4">
         <div class="col col-md-4 col-lg-4 col-xs-4 px-3">
@@ -170,7 +171,10 @@
     <!-- seccion destacados -->
     <div class="container text-center mt-4" id="destacados">
       <div class="row mb-4">
-        <div class="text-center"><h4>Destacados</h4></div>
+        <div class="text-center">
+          <h4>Destacados</h4>
+          <hr />
+        </div>
       </div>
       <div class="row align-items-center mb-4 row-cols-1 row-cols-md-4">
         <!-- tarjeta 1 -->
@@ -179,8 +183,10 @@
             <img src="assets/img/card1.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+                commodi deserunt distinctio tempora adipisci quo delectus
+                officiis eos, ducimus ipsa quas omnis repellat et, ipsam vel
+                voluptas at iure non!
               </p>
             </div>
           </div>
@@ -192,8 +198,10 @@
             <img src="assets/img/card2.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum,
+                nihil? Sed consequuntur cum ut architecto, aliquid earum iste
+                delectus minima cumque amet, incidunt laboriosam. Minus sunt
+                maxime maiores corporis esse!
               </p>
             </div>
           </div>
@@ -205,8 +213,10 @@
             <img src="assets/img/card3.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Nesciunt odit unde sit nihil obcaecati corrupti. Amet excepturi
+                perferendis, quam minus consequatur eligendi cumque numquam
+                veniam! Ipsa eos repellat rerum quod.
               </p>
             </div>
           </div>
@@ -218,8 +228,10 @@
             <img src="assets/img/card4.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. A sunt
+                ipsa quam cum, nesciunt quae reprehenderit. Vero illo culpa at
+                voluptas praesentium, soluta, velit, asperiores eveniet error
+                pariatur distinctio illum.
               </p>
             </div>
           </div>
@@ -229,8 +241,31 @@
     </div>
     <!-- fin seccion destacados -->
     <!-- seccion contacto -->
-    <div class="container">
-      <div class="row row-cols-1 row-cols-md-4"></div>
+    <div class="container py-5" id="contacto">
+      <div class="row">
+        <div class="text-center">
+          <h4>Contacto</h4>
+          <hr />
+        </div>
+      </div>
+      <div class="row">
+        <form>
+          <div class="mb-3">
+            <label for="txt_nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="txt_nombre" />
+          </div>
+          <div class="mb-3">
+            <label for="txt_asunto" class="form-label">Asunto</label>
+            <input type="text" class="form-control" id="txt_asunto" />
+          </div>
+          <div class="mb-3">
+            <label for="txt_mensaje" class="form-label">Mensaje</label>
+            <textarea class="form-control" rows="8" id="txt_mensaje"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
     </div>
     <!-- fin seccion contacto -->
   </body>
